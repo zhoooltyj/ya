@@ -1,11 +1,11 @@
-package three;
+package three.battle;
 
 /**
  * Created by polosatik on 26.09.17.
  */
-public class RuggedTerrain implements Terrain{
+public class RoadTerrain  implements Terrain {
     @Override
     public double getSlowFactor() {
-        return 0.3;
+        return 1;
     }
 }

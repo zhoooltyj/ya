@@ -1,4 +1,4 @@
-package three;
+package three.battle;
 
 /**
  * Created by polosatik on 26.09.17.
