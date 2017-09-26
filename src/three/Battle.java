@@ -13,5 +13,8 @@ public class Battle {
         t34.shoot();
         soldier.shoot();
         t34.move();
+
+        t34.setTerrain(new RuggedTerrain());
+        t34.move();
     }
 }

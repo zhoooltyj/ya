@@ -7,7 +7,7 @@ public class Infantry extends Unit {
     private int ammunition = 30;
 
     public Infantry(int power, int speed) {
-        super(power, speed);
+        super(power, speed, new RoadTerrain());
 
     }
 

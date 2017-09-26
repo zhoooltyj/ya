@@ -7,7 +7,7 @@ public class Tank extends Unit {
 
     private int ammunition = 1;
     public Tank(int power, int speed){
-        super(power, speed);
+        super(power, speed, new RoadTerrain());
 
     }
 

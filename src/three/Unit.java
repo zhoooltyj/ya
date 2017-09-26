@@ -7,10 +7,12 @@ public abstract class Unit {
 
     protected final int power;
     protected final double speed;
+    protected Terrain terrain;
 
-    protected Unit(int power, int speed) {
+    protected Unit(int power, int speed, Terrain terrain) {
         this.power = power;
         this.speed = speed;
+        this.terrain = terrain;
     }
 
     public void move() {
@@ -18,5 +20,9 @@ public abstract class Unit {
     }
 
     public abstract void shoot();
+
+    public void setTerrain(Terrain terrain) {
+        this.terrain = terrain;
+    }
 
 }
