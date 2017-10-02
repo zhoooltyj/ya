@@ -1,6 +1,7 @@
 package homework.hwthree.Checkouter;
 
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -8,5 +9,5 @@ import java.util.List;
  */
 public class Cart {
 
-    List<Product> products;
+    List<Product> products = new ArrayList<>();
 }

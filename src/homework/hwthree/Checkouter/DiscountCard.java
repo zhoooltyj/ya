@@ -5,4 +5,8 @@ package homework.hwthree.Checkouter;
  */
 public class DiscountCard {
     double discount;
+
+    public DiscountCard(double discount) {
+        this.discount = discount;
+    }
 }
