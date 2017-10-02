@@ -2,9 +2,9 @@ package homework.hwthree.array;
 
 import java.util.Scanner;
 
-public class ImportData {
+public class ConsoleReader {
 
-    public static void main(String[] args) {
+    public static ArrayN importData() {
 
         System.out.println("Введите массив из 5 чисел: ");
 
@@ -15,7 +15,7 @@ public class ImportData {
         }
 
         for(int i=0;i < nums.length; i++){
-            System.out.print(nums[i]);
+            System.out.print(nums[i]+",");
         }
         System.out.println();
 
@@ -23,6 +23,9 @@ public class ImportData {
 
         Scanner inN = new Scanner(System.in);
         int N =inN.nextInt();
+
+        ArrayN arrayN = new ArrayN(nums, N);
+        return arrayN;
 
 
     }

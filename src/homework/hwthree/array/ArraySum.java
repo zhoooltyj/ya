@@ -10,10 +10,10 @@ public class ArraySum {
 
     static HashMap<Integer, Integer> map = new HashMap<>();
 
-    static HashMap<Integer,Integer> createHashMap(Integer[] array, Integer N) {
+    static HashMap<Integer,Integer> createHashMap(ArrayN arrayN) {
 
-        for(Integer i:array){
-            map.put(i, N-i);
+        for(Integer i:arrayN.nums){
+            map.put(i, arrayN.N-i);
         }
         return map;
     }
