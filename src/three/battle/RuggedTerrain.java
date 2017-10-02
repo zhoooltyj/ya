@@ -6,6 +6,6 @@ package three.battle;
 public class RuggedTerrain implements Terrain{
     @Override
     public double getSlowFactor() {
-        return 0.3;
+        return 0.5;
     }
 }
