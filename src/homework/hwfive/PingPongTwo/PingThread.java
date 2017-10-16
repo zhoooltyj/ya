@@ -1,4 +1,4 @@
-package homework.hwfive;
+package homework.hwfive.PingPongTwo;
 
 import java.util.Date;
 

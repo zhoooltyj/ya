@@ -1,4 +1,6 @@
-package homework.hwfive;
+package homework.hwfive.PingPongTwo;
+
+import homework.hwfive.PingPongTwo.PingThread;
 
 /**
  * Created by polosatik on 16.10.17.
