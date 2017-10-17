@@ -11,7 +11,7 @@ import java.net.Socket;
 public class PresentationClient {
 
     public static void main(String[] args) throws IOException {
-        Socket socket = new Socket("127.0.0.1", 8000); // можно было "localhost"
+        Socket socket = new Socket("213.180.219.201", 8000); // можно было "localhost" или 127.0.0.1 чтобы в свой сервер стучаться
         DataOutputStream dataOutputStream = new DataOutputStream(socket.getOutputStream());
 
         dataOutputStream.writeUTF("Маша");
